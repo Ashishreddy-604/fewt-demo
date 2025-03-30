@@ -1,0 +1,36 @@
+.food-item-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  display: inline-block; /* Arrange cards side-by-side */
+  min-width: 150px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.food-item-card h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+.food-item-card p {
+  margin: 5px 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.food-item-card button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.food-item-card button:hover {
+  background-color: #0056b3;
+}
